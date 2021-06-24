@@ -1,0 +1,1 @@
+/home/corina/snap/exercism/5/exercism/kotlin/hello-world/build/classes/kotlin/main/HelloWorldKt.class
