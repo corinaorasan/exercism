@@ -3,13 +3,10 @@ object PigLatin {
             phrase
                     .split(" ")
                     .map {
-                        word ->
                         when {
-                            word.first().isVowel() -> word + "ay"
-                            listOf("yt", "xr").contains(word.take(2)) -> word + "ay"
+                            listOf('a', 'e', 'i', 'o', 'u').contains(it.first())-> it + "ay"
+                            listOf("yt", "xr").contains(it.take(2)) -> it + "ay"
                             else -> Unit
                         }
                     }.joinToString( separator = " ")
 }
-
-fun Char.isVowel() = listOf('a', 'e', 'i', 'o', 'u').contains(this)
