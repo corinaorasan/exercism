@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PigLatinTest" tests="22" skipped="0" failures="14" errors="0" timestamp="2021-06-10T13:56:34" hostname="pop-os" time="0.04">
+<testsuite name="PigLatinTest" tests="22" skipped="0" failures="14" errors="0" timestamp="2021-06-25T17:53:12" hostname="pop-os" time="0.034">
   <properties/>
-  <testcase name="test[0: translate(apple)=appleay]" classname="PigLatinTest" time="0.029"/>
+  <testcase name="test[0: translate(apple)=appleay]" classname="PigLatinTest" time="0.024"/>
   <testcase name="test[1: translate(ear)=earay]" classname="PigLatinTest" time="0.0"/>
-  <testcase name="test[2: translate(igloo)=iglooay]" classname="PigLatinTest" time="0.001"/>
+  <testcase name="test[2: translate(igloo)=iglooay]" classname="PigLatinTest" time="0.0"/>
   <testcase name="test[3: translate(object)=objectay]" classname="PigLatinTest" time="0.0"/>
   <testcase name="test[4: translate(under)=underay]" classname="PigLatinTest" time="0.0"/>
   <testcase name="test[5: translate(equal)=equalay]" classname="PigLatinTest" time="0.0"/>
@@ -139,7 +139,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="test[8: translate(xenon)=enonxay]" classname="PigLatinTest" time="0.0">
+  <testcase name="test[8: translate(xenon)=enonxay]" classname="PigLatinTest" time="0.001">
     <failure message="org.junit.ComparisonFailure: expected:&lt;[enonxay]&gt; but was:&lt;[kotlin.Unit]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[enonxay]&gt; but was:&lt;[kotlin.Unit]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
@@ -337,7 +337,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="test[11: translate(queen)=eenquay]" classname="PigLatinTest" time="0.001">
+  <testcase name="test[11: translate(queen)=eenquay]" classname="PigLatinTest" time="0.0">
     <failure message="org.junit.ComparisonFailure: expected:&lt;[eenquay]&gt; but was:&lt;[kotlin.Unit]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[eenquay]&gt; but was:&lt;[kotlin.Unit]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
@@ -403,7 +403,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="test[12: translate(square)=aresquay]" classname="PigLatinTest" time="0.0">
+  <testcase name="test[12: translate(square)=aresquay]" classname="PigLatinTest" time="0.001">
     <failure message="org.junit.ComparisonFailure: expected:&lt;[aresquay]&gt; but was:&lt;[kotlin.Unit]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[aresquay]&gt; but was:&lt;[kotlin.Unit]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
@@ -535,7 +535,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="test[14: translate(thrush)=ushthray]" classname="PigLatinTest" time="0.001">
+  <testcase name="test[14: translate(thrush)=ushthray]" classname="PigLatinTest" time="0.0">
     <failure message="org.junit.ComparisonFailure: expected:&lt;[ushthray]&gt; but was:&lt;[kotlin.Unit]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[ushthray]&gt; but was:&lt;[kotlin.Unit]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
@@ -667,7 +667,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="test[16: translate(yttria)=yttriaay]" classname="PigLatinTest" time="0.0"/>
+  <testcase name="test[16: translate(yttria)=yttriaay]" classname="PigLatinTest" time="0.001"/>
   <testcase name="test[17: translate(xray)=xrayay]" classname="PigLatinTest" time="0.0"/>
   <testcase name="test[18: translate(yellow)=ellowyay]" classname="PigLatinTest" time="0.0">
     <failure message="org.junit.ComparisonFailure: expected:&lt;[ellowyay]&gt; but was:&lt;[kotlin.Unit]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[ellowyay]&gt; but was:&lt;[kotlin.Unit]&gt;
@@ -864,7 +864,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="test[21: translate(quick fast run)=ickquay astfay unray]" classname="PigLatinTest" time="0.0">
+  <testcase name="test[21: translate(quick fast run)=ickquay astfay unray]" classname="PigLatinTest" time="0.001">
     <failure message="org.junit.ComparisonFailure: expected:&lt;[ickquay astfay unray]&gt; but was:&lt;[kotlin.Unit kotlin.Unit kotlin.Unit]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[ickquay astfay unray]&gt; but was:&lt;[kotlin.Unit kotlin.Unit kotlin.Unit]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
