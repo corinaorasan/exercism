@@ -2,14 +2,14 @@ class PhoneNumber(number: String) {
     val number = showNumberWithoutPrefix(number)
 
     private fun String.cleanup(): String {
-        return this.eliminateWhiteSpaces()
+        return this
                 .filterDigits()
                 .removePrefixOne()
     }
 
     private fun showNumberWithoutPrefix(number: String): String {
-        return if (number.cleanup()
-                        .isValid()) number.cleanup() else throw IllegalArgumentException()
+        val cleanNumber = number.cleanup()
+        if (cleanNumber.isValid()) return cleanNumber else throw IllegalArgumentException()
     }
 
     private fun String.isValid(): Boolean {
@@ -27,10 +27,6 @@ class PhoneNumber(number: String) {
 
     private fun String.removePrefixOne(): String {
         return this.removePrefix(AMERICAN_PREFIX)
-    }
-
-    private fun String.eliminateWhiteSpaces(): String {
-        return this.filterNot { it.isWhitespace() }
     }
 
     private fun String.filterDigits(): String {
