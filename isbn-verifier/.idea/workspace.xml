@@ -5,9 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62a27eb0-8ba5-4be7-9ab7-475fa9a3c13c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armstrong-numbers/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armstrong-numbers/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armstrong-numbers/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armstrong-numbers/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armstrong-numbers/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armstrong-numbers/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armstrong-numbers/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armstrong-numbers/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armstrong-numbers/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armstrong-numbers/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_1_3_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armstrong-numbers/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_annotations_common_1_3_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armstrong-numbers/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_common_1_3_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armstrong-numbers/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_junit_1_3_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armstrong-numbers/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armstrong-numbers/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armstrong-numbers/.idea/modules/armstrong-numbers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armstrong-numbers/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armstrong-numbers/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/isbn-verifier.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone-number/src/main/kotlin/CleanNumber.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phone-number/src/main/kotlin/PhoneNumberValidator.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../phone-number/src/main/kotlin/PhoneNumber.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../phone-number/src/main/kotlin/PhoneNumber.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../roman-numerals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../roman-numerals/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +52,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../armstrong-numbers" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunManager">
@@ -53,5 +74,11 @@
       <updated>1625132514196</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="554" y="349" width="424" height="495" key="FileChooserDialogImpl" timestamp="1626177529166">
+      <screen x="0" y="171" width="1536" height="837" />
+    </state>
+    <state x="554" y="349" width="424" height="495" key="FileChooserDialogImpl/0.171.1536.837/1536.0.1712.963@0.171.1536.837" timestamp="1626177529166" />
   </component>
 </project>
